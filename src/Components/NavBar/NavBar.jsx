@@ -63,16 +63,13 @@ const NavBar = () => {
             }`}
           >
             <div className="NavBar-Container_links--txt" to={"/"}>
-              pito
+              A
             </div>
             <div className="NavBar-Container_links--txt" to={"Skils"}>
-              pito
+              B
             </div>
             <div className="NavBar-Container_links--txt" to={"AboutMe"}>
-              pito
-            </div>
-            <div className="NavBar-Container_links--txt" to={"Projects"}>
-              pito
+              C
             </div>
           </div>
         </div>
