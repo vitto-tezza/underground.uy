@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/underground.uy/static/css/main.05d468a9.css",
-    "main.js": "/underground.uy/static/js/main.8955f32d.js",
+    "main.js": "/underground.uy/static/js/main.fa6a4ba3.js",
     "static/js/787.f64a5715.chunk.js": "/underground.uy/static/js/787.f64a5715.chunk.js",
     "static/media/DiegoAmaro.jpg": "/underground.uy/static/media/DiegoAmaro.036d1c051c4438146b73.jpg",
     "static/media/IMG_5505.JPG": "/underground.uy/static/media/IMG_5505.90164cd756a11c120eb3.JPG",
@@ -51,11 +51,11 @@
     "static/media/facebook.png": "/underground.uy/static/media/facebook.a245c688cb3cc934fc2a.png",
     "index.html": "/underground.uy/index.html",
     "main.05d468a9.css.map": "/underground.uy/static/css/main.05d468a9.css.map",
-    "main.8955f32d.js.map": "/underground.uy/static/js/main.8955f32d.js.map",
+    "main.fa6a4ba3.js.map": "/underground.uy/static/js/main.fa6a4ba3.js.map",
     "787.f64a5715.chunk.js.map": "/underground.uy/static/js/787.f64a5715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05d468a9.css",
-    "static/js/main.8955f32d.js"
+    "static/js/main.fa6a4ba3.js"
   ]
 }
