@@ -5,7 +5,7 @@ import Artists from "./Pages/Sello/Artists";
 import Submissons from "./Pages/Sello/Submissons";
 import Podcast from "./Pages/Produ/Podcast";
 import "./App.scss";
-import News from "./Pages/Produ/News";
+import News from "./Pages/Produ/underground.uy";
 
 function App() {
   return (
