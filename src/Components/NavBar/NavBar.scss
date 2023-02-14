@@ -1,0 +1,143 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7vw;
+}
+.NavBar-Container {
+  width: 95%;
+  height: 32vw;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 2px solid white;
+  position: fixed;
+  background-color: black;
+  z-index: 10;
+  &_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 90%;
+    top: 33vw;
+    opacity: 0;
+    pointer-events: none;
+    will-change: opacity;
+    border-radius: 2.5%;
+    background-color: black;
+    &--txt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 3vw;
+      font-size: 3.5vw;
+      margin: 1vw 0;
+      text-decoration: none;
+      color: white;
+      letter-spacing: 0.3vw;
+      &:hover {
+        scale: 1.1;
+        transition: 0.7s;
+      }
+    }
+  }
+}
+
+.selloIsActive {
+  opacity: 1;
+  pointer-events: all;
+}
+.produIsActive {
+  opacity: 1;
+  pointer-events: all;
+}
+.studioIsActive {
+  opacity: 1;
+  pointer-events: all;
+}
+.btn-sello {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  padding-top: 10vw;
+  left: 10vw;
+  &:hover {
+    scale: 1.2;
+    transition: 0.7s;
+  }
+}
+.btn-produ {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  padding-top: 10vw;
+  right: 40vw;
+  &:hover {
+    scale: 1.2;
+    transition: 0.7s;
+  }
+}
+.btn-studio {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  padding-top: 10vw;
+  right: 10vw;
+  &:hover {
+    scale: 1.2;
+    transition: 0.7s;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .NavBar {
+    padding-top: 4vw;
+  }
+  .NavBar-Container {
+    height: 15vw;
+    &_links {
+      top: 15.5vw;
+      right: 5vw;
+      &--txt {
+        font-size: 1vw;
+        padding-right: 4vw;
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .selloIsActive {
+  }
+  .produIsActive {
+  }
+  .studioIsActive {
+  }
+  .btn-sello {
+    width: 6vw;
+    height: 6vw;
+    padding-top: 3vw;
+    &:hover {
+    }
+  }
+  .btn-produ {
+    width: 6vw;
+    height: 6vw;
+    padding-top: 3vw;
+    right: 46vw;
+    &:hover {
+    }
+  }
+  .btn-studio {
+    width: 6vw;
+    height: 6vw;
+    padding-top: 3vw;
+    &:hover {
+    }
+  }
+}

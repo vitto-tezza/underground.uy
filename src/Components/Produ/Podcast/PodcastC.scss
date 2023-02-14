@@ -1,0 +1,49 @@
+.Podcast {
+  padding-top: 16vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Podcast-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  &_List {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    &--Card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 10vw;
+      &__img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Podcast {
+    padding-top: 9vw;
+  }
+  .Podcast-Container {
+    &_List {
+      width: 30%;
+      &--Card {
+        padding-bottom: 2vw;
+        &__img {
+          width: 20vw;
+          padding-left: 3.5vw;
+        }
+      }
+    }
+  }
+}
