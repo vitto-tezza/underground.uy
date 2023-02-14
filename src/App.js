@@ -4,8 +4,8 @@ import Releases from "./Pages/Sello/Releases";
 import Artists from "./Pages/Sello/Artists";
 import Submissons from "./Pages/Sello/Submissons";
 import Podcast from "./Pages/Produ/Podcast";
+import News from "./Pages/Produ/News";
 import "./App.scss";
-import News from "./Pages/Produ/underground.uy";
 
 function App() {
   return (
