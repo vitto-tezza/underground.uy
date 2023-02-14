@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/underground.uy/static/css/main.05d468a9.css",
+    "main.css": "/underground.uy/static/css/main.b8af62b0.css",
     "main.js": "/underground.uy/static/js/main.4e22faea.js",
     "static/js/787.f64a5715.chunk.js": "/underground.uy/static/js/787.f64a5715.chunk.js",
     "static/media/DiegoAmaro.jpg": "/underground.uy/static/media/DiegoAmaro.036d1c051c4438146b73.jpg",
@@ -50,12 +50,12 @@
     "static/media/lestaaaaa.jpeg": "/underground.uy/static/media/lestaaaaa.30ccce95f0ec8d3411fc.jpeg",
     "static/media/facebook.png": "/underground.uy/static/media/facebook.a245c688cb3cc934fc2a.png",
     "index.html": "/underground.uy/index.html",
-    "main.05d468a9.css.map": "/underground.uy/static/css/main.05d468a9.css.map",
+    "main.b8af62b0.css.map": "/underground.uy/static/css/main.b8af62b0.css.map",
     "main.4e22faea.js.map": "/underground.uy/static/js/main.4e22faea.js.map",
     "787.f64a5715.chunk.js.map": "/underground.uy/static/js/787.f64a5715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d468a9.css",
+    "static/css/main.b8af62b0.css",
     "static/js/main.4e22faea.js"
   ]
 }
