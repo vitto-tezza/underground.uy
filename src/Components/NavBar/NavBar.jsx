@@ -49,9 +49,9 @@ const NavBar = () => {
           <div
             className={`NavBar-Container_links ${produ ? "produIsActive" : ""}`}
           >
-            <Link className="NavBar-Container_links--txt" to={"/"}>
+            <div className="NavBar-Container_links--txt" to={"/"}>
               NEWS
-            </Link>
+            </div>
             <Link className="NavBar-Container_links--txt" to={"/Podcast"}>
               PODCAST
             </Link>
