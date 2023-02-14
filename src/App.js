@@ -17,7 +17,7 @@ function App() {
           <Route path="/Artists" element={<Artists />} />
           <Route path="/Submissons" element={<Submissons />} />
           <Route path="/Podcast" element={<Podcast />} />
-          <Route path="/" element={<News />} />
+          <Route path="/News" element={<News />} />
         </Routes>
       </BrowserRouter>
     </div>
